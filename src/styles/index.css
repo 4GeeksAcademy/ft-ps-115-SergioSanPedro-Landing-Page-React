@@ -11,9 +11,10 @@
 */
 
 body {
-    background-image: url('https://elfrikitoday.com/wp-content/uploads/2022/11/magicportada1.jpg');
-    object-fit: cover;
-    object-position: center center;
+    background-image: url('https://images.ctfassets.net/s5n2t79q9icq/114xMnrR6RiLD15UxL8LYZ/ca73ec9fe59f654a150b543e05979181/Meta-Homepage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    object-position: center;
     background-repeat: no-repeat;
     width: 100vw;
 }
