@@ -12,19 +12,19 @@ const Home = () => {
 	return (
 		<>
 			<NavBar />
-			<div className="container">
 
+			<div className="container">
 				<Hero />
 
 				<section className="row mb-5">
-					<div className="col-lg-3 col-md-6">
+					<div className="col-lg-3 col-md-6" id="cards">
 						<Cards
-							imagen='https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=600&type=card'
+							imagen='https://api.tcg.land/images/mtg/v2/30a/228/en/a-100.webp'
 							titulo='Black Lotus'
 							descripcion='Esta carta es la más icónica y poderosa de Magic. 
 							Permite generar tres manás de cualquier color sin coste, 
 							lo que puede ser decisivo en los primeros turnos para establecer una ventaja abrumadora. '
-							enlace= 'https://www.cardmarket.com/es/Magic/Products/Singles/Unglued/Blacker-Lotus'
+							enlace= 'https://www.cardmarket.com/es/Magic/Products/Singles/30th-Anniversary-Edition/Black-Lotus-V1'
 						/>
 					</div>
 					<div className="col-lg-3 col-md-6">
@@ -56,11 +56,9 @@ const Home = () => {
 							enlace= 'https://www.cardmarket.com/es/Magic/Products/Singles/Unlimited/Mox-Sapphire'
 						/>
 					</div>
-					
 				</section>
-				
-
 			</div>
+			
 			<Footer/>
 
 		</>
