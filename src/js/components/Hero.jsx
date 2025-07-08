@@ -6,9 +6,9 @@ export const Hero = () => {
             <div className="p-2 col-md-4 mx-auto">
                 <p className="lead fw-bold text-white" >
                     En esta página podrás encontrar las 4 mejores cartas Magic que podrás
-                    utilizar en tus decks y así poder conseguir llegar a lo más alto. Hay muchas más y cada una dependerá
+                    utilizar en tus mazos y así poder conseguir llegar a lo más alto. Hay muchas más y cada una dependerá
                     de la temática y estrategia con la que quieras jugar. Aquí muestro las cartas estándar que pueden 
-                    servir para todos los tipos de mazos. Mucha suerte!!
+                    servir para todas las modalidades. Mucha suerte!!
                 </p>
                
             </div>

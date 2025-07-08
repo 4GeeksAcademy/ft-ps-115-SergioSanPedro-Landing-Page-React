@@ -16,11 +16,9 @@ export const NavBar = () => {
                         <a className="nav-link active text-light" aria-current="page" href="#cartas">Cartas</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link disabled text-light" aria-disabled="true">Services</a>
+                        <a className="nav-link disabled text-light" aria-disabled="true">Contacto</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled text-light" aria-disabled="true">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>

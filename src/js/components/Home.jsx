@@ -10,17 +10,21 @@ import { Footer } from "./Footer";
 //create your first component
 const Home = () => {
 	return (
-		<>
-			<header id="top">
+
+		<main id="top">
+
+			<header>
 				<NavBar />
 			</header>
 
 
-			<div className="container">
+			<div className="container" style={{ paddingTop: '3rem' }}>
+
 				<Hero />
 
-				<section className="row mb-5">
+				<section className="row mb-5 g-2">
 					<div className="col-lg-3 col-md-6" id="cartas">
+
 						<Cards
 							imagen='https://api.tcg.land/images/mtg/v2/30a/228/en/a-100.webp'
 							titulo='Black Lotus'
@@ -30,7 +34,9 @@ const Home = () => {
 							enlace='https://www.cardmarket.com/es/Magic/Products/Singles/30th-Anniversary-Edition/Black-Lotus-V1'
 						/>
 					</div>
+
 					<div className="col-lg-3 col-md-6">
+
 						<Cards
 							imagen='https://cards.scryfall.io/png/front/7/1/71283e4c-efd9-4a96-991c-6bbb169b99e7.png?1664924695'
 							titulo='Ancestral Recall'
@@ -40,7 +46,9 @@ const Home = () => {
 							enlace='https://www.cardmarket.com/es/Magic/Products/Singles/Beta/Ancestral-Recall'
 						/>
 					</div>
+
 					<div className="col-lg-3 col-md-6">
+
 						<Cards
 							imagen='https://api.tcg.land/images/mtg/v2/30a/380/en/a-100.webp'
 							titulo='Time Walk'
@@ -50,7 +58,9 @@ const Home = () => {
 							enlace='https://www.cardmarket.com/es/Magic/Products/Singles/Alpha/Time-Walk'
 						/>
 					</div>
+					
 					<div className="col-lg-3 col-md-6">
+						
 						<Cards
 							imagen='https://cards.scryfall.io/png/front/e/e/eebe1882-f2f4-4749-8890-974e9eb48d68.png?1559591745'
 							titulo='Mox Sapphire'
@@ -62,9 +72,10 @@ const Home = () => {
 				</section>
 			</div>
 
-			<Footer />
+			<Footer/>
+			
+		</main>
 
-		</>
 	);
 };
 
